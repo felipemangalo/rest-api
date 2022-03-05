@@ -9,7 +9,8 @@
     "serve": "node dist/app.js",
     "serve:watch": "nodemon dist/app.js",
     "build": "tsc",
-    "build:watch": "tsc -w"
+    "build:watch": "tsc -w",
+    "test:cov": "npx jest --coverage"
   },
   "keywords": [],
   "author": "",
